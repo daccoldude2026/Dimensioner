@@ -1,0 +1,12 @@
+{
+  "name": "grid-dimensioner",
+  "version": "0.1.0",
+  "description": "Browser app: dimension gridded plans and elevations in feet-inches using the grid as the ruler.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "python3 -m http.server 8080",
+    "e2e": "python3 tests/e2e.py"
+  },
+  "private": true
+}
